@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(arka.jpg);
+}
+li{
+    font-size: 0px;
+    list-style: none;
+}
+.accordion{
+    padding: 15px;
+}
+.accordion:hover li{
+    width: 160px;
+}
+.accordion li{
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid #000;
+    transition: all 1s;
+}
+.accordion li:hover{
+    width: 400px;
+    transition: all 1s;
+}
