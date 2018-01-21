@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(dalga.jpg);
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#orta{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+        
+}
+#orta:hover{
+    cursor: pointer;
+}
+#wave1, #wave2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@keyframes waveeffect{
+    from {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-50%, -50%) scale(2);
+    }
+}
+
+#orta:hover ~ #wave1{
+    animation: waveeffect 1s infinite linear;
+}
+
+#orta:hover ~ #wave2{
+    animation: waveeffect 1s infinite linear;
+    animation-delay: 0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
