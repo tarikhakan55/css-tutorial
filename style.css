@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+}
+.text{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    background-image: url(textbagckground.jpg);
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-position: 200% 0%;
+    
+    animation: anime 20s linear infinite;
+}
+
+@keyframes anime {
+    from{
+        background-position: 200% 0%;
+    }to{
+        background-position: 0% 0%;
+    }
+}
