@@ -1,6 +1,5 @@
-## Video : Turkish Language
 
-In this video tutorial, we going to 3D menu animation in CSS code. We will do this effect differently. 
+In this folder, we going to 3D menu animation in CSS code. We will do this effect differently. 
 The menu’s opening process will be rotate.
 
 ### We Learn About
