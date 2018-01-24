@@ -1,0 +1,40 @@
+body{
+    background-color: chartreuse;
+}
+h1{
+    margin: auto;
+    padding: 0;
+    color: darkred;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 500px;
+   
+    
+}
+#street{
+    border-bottom: 8px dashed red;
+}
+#walk{
+    height: 340px;
+    width: 250px;
+    background-image: url(human.png);
+    animation: anime 1s steps(12) infinite,
+        forward 4s linear infinite;
+}
+@keyframes anime{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 3000px;
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(1200px);
+    }
+}
