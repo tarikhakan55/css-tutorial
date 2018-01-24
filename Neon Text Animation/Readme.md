@@ -2,7 +2,7 @@ In this folder, we going to neon text animation  in CSS code.
 Neon light effects are used on background dark pictures. 
 Especially suitable for game sites.
 
-<img src="http://hizliresim.org/images/2018/01/23/neon.jpg">
+<img src="http://hizliresim.org/images/2018/01/24/walkinggithub.jpg">
 
 ### We Learn About
 
