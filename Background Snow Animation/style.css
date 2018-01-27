@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-image: url(background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.snowback1{
+   width: 100%;
+    height: 650px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-image: url(snow.png);
+    background-repeat: no-repeat;
+    animation: anime1 10s infinite linear;
+    background-size: 100%;
+    
+}
+.snowback2{
+   width: 100%;
+    height: 650px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-image: url(snow2.png);
+    background-repeat: no-repeat;
+    animation: anime2 10s infinite linear;
+    background-size: 100%;
+    
+}
+.snowback3{
+   width: 100%;
+    height: 650px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-image: url(snow3.png);
+    background-repeat: no-repeat;
+    animation: anime3 10s infinite linear;
+     background-size: 100%;
+    
+}
+.snowback4{
+   width: 100%;
+    height: 650px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-image: url(snow3.png);
+    background-repeat: no-repeat;
+    animation: anime4 10s infinite linear;
+     background-size: 100%;
+    
+}
+@keyframes anime1 {
+    0%{
+        background-position: 0px 0px
+    }
+    100%{
+        background-position: 100px 650px
+    }
+}
+@keyframes anime2 {
+    0%{
+        background-position: 0px -650px
+    }
+    100%{
+        background-position: 0px 100px
+    }
+}
+@keyframes anime3 {
+    0%{
+        background-position: 0px 0px
+    }
+    100%{
+        background-position: 300px 650px
+    }
+}
+@keyframes anime4 {
+    0%{
+        background-position: 0px -650px
+    }
+    100%{
+        background-position: 0px 0px
+    }
+}
