@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    border: 5px solid aliceblue;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+ul{
+    padding: 0;
+    margin: 250px auto 0;
+    display: flex;
+    width: 1200px;
+}
+ul li{
+    list-style: none;
+}
+ul li .imgbox{
+    height: 295px;
+    width: 400px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+ul li .imgbox figure{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+ul li .imgbox figure:before, ul li .imgbox figure:after{
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: '';
+    transition: .5s;
+    background: #262626;
+    position: absolute;
+}
+ul li .imgbox figure:before{
+    left: -50%;
+}
+ul li .imgbox:hover figure:before{
+    left: 0;
+}
+ul li .imgbox figure:after{
+    right: -50%;
+}
+ul li .imgbox:hover figure:after{
+    right: 0;
+}
+
+ul li .imgbox figure img{
+    height: 100%;
+    width: 100%;
+}
+ul li .imgbox figure figcaption{
+    padding: 20px;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    transition: .5s;
+    transform: translateY(20px);
+    transition-delay: .5s;
+    z-index: 1;
+    
+}
+ul li .imgbox:hover figure figcaption{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+ul li .imgbox figure figcaption h1{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+ul li .imgbox figure figcaption p{
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+ul li .imgbox figure figcaption a{
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: aliceblue;
+    background: darkred;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
