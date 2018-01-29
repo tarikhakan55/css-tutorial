@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkslategray;
+}
+.dots ul{
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+.dots ul li{
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    background: #fff;
+    border-radius: 50%;
+    animation: anime 1.6s ease-in-out infinite;
+}
+
+@keyframes anime{
+    0%, 40%, 100%{
+        transform: scale(0.2);
+    }
+    20%{
+        transform: scale(1);
+    }
+}
+.dots ul li:nth-child(1)
+{
+    background: red;
+    animation-delay: -1.4s;
+    box-shadow: 0 0 50px red;
+}
+.dots ul li:nth-child(2)
+{
+    background: chartreuse;
+    animation-delay: -1.2s;
+    box-shadow: 0 0 50px chartreuse;
+}
+.dots ul li:nth-child(3)
+{
+    background: #ffff00;
+    animation-delay: -1s;
+    box-shadow: 0 0 50px #ffff00;
+}
+.dots ul li:nth-child(4)
+{
+    background: blue;
+    animation-delay: -1s;
+    box-shadow: 0 0 50px blue;
+}
+.dots ul li:nth-child(5)
+{
+    background: purple;
+    animation-delay: -0.8s;
+    box-shadow: 0 0 50px purple;
+}
+.dots ul li:nth-child(6)
+{
+    background: pink;
+    animation-delay: -0.4s;
+    box-shadow: 0 0 50px pink;
+}
+.dots ul li:nth-child(7)
+{
+    background: orange;
+    animation-delay: -0.2s;
+    box-shadow: 0 0 50px orange;
+}
+
+
+.text ul{
+    padding: 0;
+    margin: 0;
+    top: 35%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+}
+.text ul li{
+    font-family: sans-serif;
+    font-size: 5em;
+    letter-spacing: 15px;
+    list-style: none;
+    background: darkslategray;
+    animation: animetext 1.4s linear infinite;
+}
+@keyframes animetext
+{
+    0%{
+        color: red;
+        text-shadow: none;
+    }
+    90%{
+        color: red;
+        text-shadow: none;
+    }
+    100%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+    }
+}
+.text ul li:nth-child(1){
+    animation-delay: .2s;
+}
+.text ul li:nth-child(2){
+    animation-delay: .4s;
+}
+.text ul li:nth-child(3){
+    animation-delay: .6s;
+}
+.text ul li:nth-child(4){
+    animation-delay: .8s;
+}
+.text ul li:nth-child(5){
+    animation-delay: 1s;
+}
+.text ul li:nth-child(6){
+    animation-delay: 1.2s;
+}
+.text ul li:nth-child(7){
+    animation-delay: 1.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
