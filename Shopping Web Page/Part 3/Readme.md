@@ -2,7 +2,7 @@ In this folder,We will design a professional shopping site.
 Today we will make the menus on the main page. 
 This area is the most used section.
 
-<img src="http://hizliresim.org/images/2018/01/31/githubpart2.jpg">
+<img src="http://hizliresim.org/images/2018/01/31/githubpart3.jpg">
 
 
 ### We Learn About
