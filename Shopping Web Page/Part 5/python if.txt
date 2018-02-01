@@ -8,13 +8,13 @@ rakamlar = "0123456789"
 for rakam in rakamlar:
     print(rakam)
 -----------------------------    
-sayılar = "123456789"
-for sayı in sayılar:
-    print(int(sayı) * 3)
+sayÃ½lar = "123456789"
+for sayÃ½ in sayÃ½lar:
+    print(int(sayÃ½) * 3)
 -----------------------------------
-trharfler ="şçöüğİı"
-sifre = input("Parolanız :")
+trharfler ="Ã¾Ã§Ã¶Ã¼Ã°ÃÃ½"
+sifre = input("ParolanÃ½z :")
 
 for deger in sifre:
     if deger in trharfler:
-        print("Şifrede Türkçe Karakter Kullnamayınız!")
+        print("Ãifrede TÃ¼rkÃ§e Karakter KullnamayÃ½nÃ½z!")
