@@ -1,0 +1,20 @@
+harfler = "abcdgeoujtyn"
+x = 0
+while x < len(harfler):
+     print(harfler[x], sep="\n")
+     x +=1
+---------------------------------------     
+rakamlar = "0123456789"
+for rakam in rakamlar:
+    print(rakam)
+-----------------------------    
+sayýlar = "123456789"
+for sayý in sayýlar:
+    print(int(sayý) * 3)
+-----------------------------------
+trharfler ="þçöüðÝý"
+sifre = input("Parolanýz :")
+
+for deger in sifre:
+    if deger in trharfler:
+        print("Þifrede Türkçe Karakter Kullnamayýnýz!")
