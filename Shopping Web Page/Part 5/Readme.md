@@ -2,7 +2,7 @@ In this folder,We will design a professional shopping site.
 Today we will make the categories area  on the main page. 
 In this section we will show the contents of the main menus.
 
-<img src="http://hizliresim.org/images/2018/02/01/github5.jpg">
+<img src="https://preview.ibb.co/nFRCDm/github5.jpg">
 
 
 ### We Learn About
